@@ -1,0 +1,19 @@
+{
+    "version": "0.1.0",
+    "command": "sh",
+    "args": ["-c"],
+    "isShellCommand": true,    
+    "showOutput": "always",
+    "suppressTaskName": true,        
+    "tasks": [
+        {
+            "taskName": "cmake-gen",
+            "args": ["cmake -H. -Bbuild -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Debug"]
+        },
+        {
+            "taskName": "cmake-build",
+            "args": ["cmake --build build"],
+            "isBuildCommand": true    
+        }
+    ]
+}
