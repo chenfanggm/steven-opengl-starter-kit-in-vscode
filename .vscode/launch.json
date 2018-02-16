@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "preLaunchTask": "cmake",
-            "program": "${workspaceFolder}/build/steven-opengl-starter-kit-in-vscode",
+            "program": "${workspaceFolder}/build/opengl-starter",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

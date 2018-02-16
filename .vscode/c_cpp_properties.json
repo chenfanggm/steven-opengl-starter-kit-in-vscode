@@ -9,6 +9,7 @@
                 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
                 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include",
                 "${workspaceRoot}",
+                "${workspaceRoot}/libs",                
                 "/usr/local/Cellar/glew/2.1.0/include/GL",
                 "/usr/local/Cellar/glfw/3.2.1/include/GLFW",
                 "/usr/local/Cellar/glm/0.9.8.5/include/glm"

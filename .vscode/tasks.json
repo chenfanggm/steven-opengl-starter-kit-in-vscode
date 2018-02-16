@@ -7,12 +7,12 @@
     "suppressTaskName": true,        
     "tasks": [
         {
-            "taskName": "cmake-gen",
-            "args": ["cmake -H. -Bbuild -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Debug"]
+            "taskName": "cmake-gen-make",
+            "args": ["cmake -H. -Bbuild/make -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Debug"]
         },
         {
-            "taskName": "cmake-build",
-            "args": ["cmake --build build"],
+            "taskName": "cmake-build-make",
+            "args": ["cmake --build build/make"],
             "isBuildCommand": true    
         }
     ]
